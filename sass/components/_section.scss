@@ -38,9 +38,9 @@
     color: $color-text-title;
   }
 
-  @media screen and (max-width: 480px) {
-    width: 480px;
-  }
+  // @media screen and (max-width: 480px) {
+  //   width: 480px;
+  // }
 
   // 769px->
   @media screen and (min-width: 1200px) {
@@ -73,8 +73,8 @@
     &__title {
       margin-bottom: 50px;
 
-      font-size: 28px;
-      line-height: 1.18;
+      font-size: 36px;
+      line-height: 1.17;
     }
   }
 }

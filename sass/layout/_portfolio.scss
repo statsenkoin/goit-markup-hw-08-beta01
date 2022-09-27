@@ -6,7 +6,8 @@
   margin-bottom: 40px;
 
   @media screen and (max-width: 767px) {
-    width: 326px;
+    // width: 326px;
+    max-width: 326px;
   }
 
   @media screen and (min-width: 768px) {
@@ -21,7 +22,8 @@
 
 .project-list {
   &__item {
-    width: 450px;
+    // width: 450px;
+    width: 100%;
   }
 
   @media screen and (max-width: 767px) {
