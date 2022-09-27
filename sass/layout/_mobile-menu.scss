@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
   // width: 100vw;
   // height: 100hw;
   // min-width: 480px;
@@ -16,10 +17,8 @@
   padding-right: 40px;
   padding-left: 40px;
   background-color: $color-site-accent;
-  z-index: 999;
 
   transform: translateY(-150%);
-
   @include customTransition(transform, background-color);
 
   &.is-open {
